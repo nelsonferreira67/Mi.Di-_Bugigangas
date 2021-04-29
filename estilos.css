@@ -1,4 +1,4 @@
-body{
+ body{
     color: #333333;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -12,6 +12,10 @@ body{
 .menu-opcoes ul{
     font-size: 15px;
 }
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
 .menu-opcoes a{
     color: #003366
 }
@@ -19,6 +23,6 @@ body{
     //código do menu cabeçalho
 }
 .container{
-    margin-right: auto;
-    scroll-margin-left: auto;
+    margin-right: 0 auto;
+    width: 940px;
 }
