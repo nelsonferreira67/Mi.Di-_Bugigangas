@@ -2,12 +2,21 @@ body{
     color: #333333;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+header{
+    position: relative;
+}
 .sacola{
+    position: absolute;
+    top: 0;
+    right: 0;
     background: url(..);
     font-size: 14px;
     padding-right: 35px;
     text-align: right;
     width: 140px;
+}
+.menu-opcoes{
+    position: absolute;
 }
 .menu-opcoes ul{
     font-size: 15px;
